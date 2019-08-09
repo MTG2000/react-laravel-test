@@ -13,25 +13,28 @@ const Contact = lazy(() => import("./components/layouts/Contact"));
 const ProductPage = lazy(() => import("./components/layouts/ProductPage"));
 
 function App() {
-  return (
-    <BrowserRouter>
-      <ScrollToTop>
-        <div className="App ">
-          <Navbar />
-          <Suspense fallback={<Loading />}>
-            <Switch>
-              <Route path="/about" component={About} />
-              <Route path="/contact" component={Contact} />
-              <Route path="/products/:id" component={ProductPage} />
-              <Route path="/" component={Home} />
-            </Switch>
-          </Suspense>
-          <ScrollTopBtn />
-          <Footer />
-        </div>
-      </ScrollToTop>
-    </BrowserRouter>
-  );
+    return (
+        <BrowserRouter>
+            <ScrollToTop>
+                <div className="App ">
+                    <Navbar />
+                    <Suspense fallback={<Loading />}>
+                        <Switch>
+                            <Route path="/about" component={About} />
+                            <Route path="/contact" component={Contact} />
+                            <Route
+                                path="/products/:id"
+                                component={ProductPage}
+                            />
+                            <Route path="/" component={Home} />
+                        </Switch>
+                    </Suspense>
+                    <ScrollTopBtn />
+                    <Footer />
+                </div>
+            </ScrollToTop>
+        </BrowserRouter>
+    );
 }
 
 export default App;

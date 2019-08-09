@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import styles from "./styles/product.module.scss";
+import "./styles/product.scss";
 import Loading from "./Loading";
 
 const tempProduct = {
@@ -34,8 +34,8 @@ const ProductPage = ({ match }) => {
 
   if (!product) return <Loading />;
   return (
-    <div className={`${styles.productPage} container py-5`}>
-      <div className={`${styles.imageWrapper} mx-auto rounded mt-5`}>
+    <div className={`productPage container py-5`}>
+      <div className={`imageWrapper mx-auto rounded mt-5`}>
         <img src={product.img} alt={product.title} />
       </div>
       <h2

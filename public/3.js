@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[3],{
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./resources/js/components/layouts/styles/product.module.scss":
-/*!*********************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/lib/loader.js??ref--7-3!./resources/js/components/layouts/styles/product.module.scss ***!
-  \*********************************************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./resources/js/components/layouts/styles/product.scss":
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/lib/loader.js??ref--7-3!./resources/js/components/layouts/styles/product.scss ***!
+  \**************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -32,8 +32,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _styles_product_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/product.module.scss */ "./resources/js/components/layouts/styles/product.module.scss");
-/* harmony import */ var _styles_product_module_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_product_module_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _styles_product_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/product.scss */ "./resources/js/components/layouts/styles/product.scss");
+/* harmony import */ var _styles_product_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_product_scss__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _Loading__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Loading */ "./resources/js/components/layouts/Loading.jsx");
 
 
@@ -106,9 +106,9 @@ var ProductPage = function ProductPage(_ref) {
   });
   if (!product) return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Loading__WEBPACK_IMPORTED_MODULE_3__["default"], null);
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "".concat(_styles_product_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.productPage, " container py-5")
+    className: "productPage container py-5"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "".concat(_styles_product_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.imageWrapper, " mx-auto rounded mt-5")
+    className: "imageWrapper mx-auto rounded mt-5"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
     src: product.img,
     alt: product.title
@@ -146,15 +146,15 @@ var ProductPage = function ProductPage(_ref) {
 
 /***/ }),
 
-/***/ "./resources/js/components/layouts/styles/product.module.scss":
-/*!********************************************************************!*\
-  !*** ./resources/js/components/layouts/styles/product.module.scss ***!
-  \********************************************************************/
+/***/ "./resources/js/components/layouts/styles/product.scss":
+/*!*************************************************************!*\
+  !*** ./resources/js/components/layouts/styles/product.scss ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../node_modules/css-loader!../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../node_modules/sass-loader/lib/loader.js??ref--7-3!./product.module.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./resources/js/components/layouts/styles/product.module.scss");
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader!../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../node_modules/sass-loader/lib/loader.js??ref--7-3!./product.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./resources/js/components/layouts/styles/product.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 

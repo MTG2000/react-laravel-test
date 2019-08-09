@@ -1,13 +1,13 @@
 import React from "react";
-import styles from "./styles/contact.module.scss";
+import "./styles/contact.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Contact = () => {
   document.title = "Contact Us";
   return (
-    <div className={`w-100 ${styles.contact}`}>
+    <div className={`w-100 contact`}>
       <div
-        className={styles.contactImage}
+        className={"contactImage"}
         style={{
           backgroundImage:
             'url("https://drive.google.com/uc?id=1MxufDwE0jSj0Lk0_SZhRXMbIHhilHtOO")'

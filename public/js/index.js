@@ -9972,10 +9972,10 @@ exports.push([module.i, ".navWrapper {\n  height: 80px;\n}\n\nnav {\n  position:
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./resources/js/components/layouts/styles/scrollTopBtn.module.scss":
-/*!**************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/lib/loader.js??ref--7-3!./resources/js/components/layouts/styles/scrollTopBtn.module.scss ***!
-  \**************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./resources/js/components/layouts/styles/scrollTopBtn.scss":
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/lib/loader.js??ref--7-3!./resources/js/components/layouts/styles/scrollTopBtn.scss ***!
+  \*******************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -61355,7 +61355,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_loading__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-loading */ "./node_modules/react-loading/dist/react-loading.js");
 /* harmony import */ var react_loading__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_loading__WEBPACK_IMPORTED_MODULE_1__);
 
- // import styles from "./styles/loading.module.scss";
+
 
 var Loading = function Loading() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -61486,8 +61486,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_scroll_up__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-scroll-up */ "./node_modules/react-scroll-up/index.js");
 /* harmony import */ var react_scroll_up__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_scroll_up__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
-/* harmony import */ var _styles_scrollTopBtn_module_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/scrollTopBtn.module.scss */ "./resources/js/components/layouts/styles/scrollTopBtn.module.scss");
-/* harmony import */ var _styles_scrollTopBtn_module_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_scrollTopBtn_module_scss__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _styles_scrollTopBtn_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/scrollTopBtn.scss */ "./resources/js/components/layouts/styles/scrollTopBtn.scss");
+/* harmony import */ var _styles_scrollTopBtn_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_scrollTopBtn_scss__WEBPACK_IMPORTED_MODULE_3__);
 
 
 
@@ -61497,7 +61497,7 @@ var ScrollTopBtn = function ScrollTopBtn() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scroll_up__WEBPACK_IMPORTED_MODULE_1___default.a, {
     showUnder: 160
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "bg-primary d-block d-flex justify-content-center align-items-center text-white rounded ".concat(_styles_scrollTopBtn_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.scrollBtn)
+    className: "bg-primary d-block d-flex justify-content-center align-items-center text-white rounded \n   scrollBtn"
   }, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
     icon: "arrow-up"
   }), " "));
@@ -61558,15 +61558,15 @@ if(false) {}
 
 /***/ }),
 
-/***/ "./resources/js/components/layouts/styles/scrollTopBtn.module.scss":
-/*!*************************************************************************!*\
-  !*** ./resources/js/components/layouts/styles/scrollTopBtn.module.scss ***!
-  \*************************************************************************/
+/***/ "./resources/js/components/layouts/styles/scrollTopBtn.scss":
+/*!******************************************************************!*\
+  !*** ./resources/js/components/layouts/styles/scrollTopBtn.scss ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../node_modules/css-loader!../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../node_modules/sass-loader/lib/loader.js??ref--7-3!./scrollTopBtn.module.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./resources/js/components/layouts/styles/scrollTopBtn.module.scss");
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader!../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../node_modules/sass-loader/lib/loader.js??ref--7-3!./scrollTopBtn.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./resources/js/components/layouts/styles/scrollTopBtn.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 

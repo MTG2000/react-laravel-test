@@ -1,9 +1,9 @@
 import React from "react";
-import styles from "./styles/Landing.module.scss";
+import "./styles/Landing.scss";
 
 const LandImage = () => {
   return (
-    <div className={`${styles.landing} w-100 d-flex`}>
+    <div className={`landing w-100 d-flex`}>
       <div data-aos="zoom-in">
         <h1 className="text-white text-center display-1">
           <span className="text-primary">P</span>etro

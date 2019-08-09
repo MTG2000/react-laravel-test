@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[2],{
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./resources/js/components/layouts/styles/contact.module.scss":
-/*!*********************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/lib/loader.js??ref--7-3!./resources/js/components/layouts/styles/contact.module.scss ***!
-  \*********************************************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./resources/js/components/layouts/styles/contact.scss":
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/lib/loader.js??ref--7-3!./resources/js/components/layouts/styles/contact.scss ***!
+  \**************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -30,8 +30,8 @@ exports.push([module.i, ".contact {\n  min-height: 100vh;\n}\n.contact .contactI
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _styles_contact_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/contact.module.scss */ "./resources/js/components/layouts/styles/contact.module.scss");
-/* harmony import */ var _styles_contact_module_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_contact_module_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _styles_contact_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/contact.scss */ "./resources/js/components/layouts/styles/contact.scss");
+/* harmony import */ var _styles_contact_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_contact_scss__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
 
 
@@ -40,9 +40,9 @@ __webpack_require__.r(__webpack_exports__);
 var Contact = function Contact() {
   document.title = "Contact Us";
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "w-100 ".concat(_styles_contact_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.contact)
+    className: "w-100 contact"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _styles_contact_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.contactImage,
+    className: "contactImage",
     style: {
       backgroundImage: 'url("https://drive.google.com/uc?id=1MxufDwE0jSj0Lk0_SZhRXMbIHhilHtOO")'
     }
@@ -150,15 +150,15 @@ var Contact = function Contact() {
 
 /***/ }),
 
-/***/ "./resources/js/components/layouts/styles/contact.module.scss":
-/*!********************************************************************!*\
-  !*** ./resources/js/components/layouts/styles/contact.module.scss ***!
-  \********************************************************************/
+/***/ "./resources/js/components/layouts/styles/contact.scss":
+/*!*************************************************************!*\
+  !*** ./resources/js/components/layouts/styles/contact.scss ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../node_modules/css-loader!../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../node_modules/sass-loader/lib/loader.js??ref--7-3!./contact.module.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./resources/js/components/layouts/styles/contact.module.scss");
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader!../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../node_modules/sass-loader/lib/loader.js??ref--7-3!./contact.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./resources/js/components/layouts/styles/contact.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 

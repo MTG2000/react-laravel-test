@@ -1,12 +1,12 @@
 import React from "react";
-import styles from "./styles/about.module.scss";
+import "./styles/about.scss";
 
 const About = () => {
   document.title = "About Petro Asia Cheme";
   return (
-    <div className={`w-100 ${styles.about}`}>
+    <div className={`w-100 about`}>
       <div
-        className={styles.aboutImage}
+        className="aboutImage"
         style={{
           backgroundImage:
             'url("https://drive.google.com/uc?id=1W4R_Q5K5XKtmywaX0giy36EXlry37e-u")'

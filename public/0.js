@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[0],{
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./resources/js/components/layouts/styles/Landing.module.scss":
-/*!*********************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/lib/loader.js??ref--7-3!./resources/js/components/layouts/styles/Landing.module.scss ***!
-  \*********************************************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./resources/js/components/layouts/styles/Landing.scss":
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/lib/loader.js??ref--7-3!./resources/js/components/layouts/styles/Landing.scss ***!
+  \**************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19,10 +19,10 @@ exports.push([module.i, ".landing {\n  height: 60vh;\n  max-height: 700px;\n  ba
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./resources/js/components/layouts/styles/product-card.module.scss":
-/*!**************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/lib/loader.js??ref--7-3!./resources/js/components/layouts/styles/product-card.module.scss ***!
-  \**************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./resources/js/components/layouts/styles/product-card.scss":
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/lib/loader.js??ref--7-3!./resources/js/components/layouts/styles/product-card.scss ***!
+  \*******************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -31,7 +31,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, ".card {\n  width: 300px;\n  height: 400px;\n  position: relative;\n  overflow: hidden;\n}\n.card img {\n  height: 300px;\n  -o-object-fit: cover;\n     object-fit: cover;\n  -o-object-position: center;\n     object-position: center;\n  position: relative;\n}\n.card::after {\n  content: \"\";\n  display: block;\n  width: 100%;\n  height: 300px;\n  position: absolute;\n  top: 0;\n  left: 0;\n  opacity: 0;\n  transition: opacity 0.4s;\n  background: rgba(194, 193, 199, 0.447);\n}\n.card::after,\n.card img {\n  border-radius: 5px;\n}\n.card h3 {\n  transform: scale(0.8);\n  opacity: 1;\n  transition: all 0.5s ease-in-out;\n  text-shadow: 3px 3px 15px #999;\n}\n.card a {\n  position: absolute;\n  top: 38%;\n  left: 50%;\n  transform: translate(-50%, -50%) rotate(180deg);\n  z-index: 3;\n  opacity: 0;\n  transition: all 0.5s ease-out;\n}\n.card:hover::after {\n  opacity: 1;\n}\n.card:hover a {\n  position: absolute;\n  top: 38%;\n  left: 50%;\n  transform: translate(-50%, -50%) rotate(0deg);\n  z-index: 3;\n  opacity: 1;\n}\n.card:hover h3 {\n  transform: scale(1);\n  color: #222 !important;\n}", ""]);
+exports.push([module.i, ".product-card {\n  width: 300px;\n  height: 400px;\n  position: relative;\n  overflow: hidden;\n}\n.product-card img {\n  height: 300px;\n  -o-object-fit: cover;\n     object-fit: cover;\n  -o-object-position: center;\n     object-position: center;\n  position: relative;\n}\n.product-card::after {\n  content: \"\";\n  display: block;\n  width: 100%;\n  height: 300px;\n  position: absolute;\n  top: 0;\n  left: 0;\n  opacity: 0;\n  transition: opacity 0.4s;\n  background: rgba(194, 193, 199, 0.447);\n}\n.product-card::after,\n.product-card img {\n  border-radius: 5px;\n}\n.product-card h3 {\n  transform: scale(0.8);\n  opacity: 1;\n  transition: all 0.5s ease-in-out;\n  text-shadow: 3px 3px 15px #999;\n}\n.product-card a {\n  position: absolute;\n  top: 38%;\n  left: 50%;\n  transform: translate(-50%, -50%) rotate(180deg);\n  z-index: 3;\n  opacity: 0;\n  transition: all 0.5s ease-out;\n}\n.product-card:hover::after {\n  opacity: 1;\n}\n.product-card:hover a {\n  position: absolute;\n  top: 38%;\n  left: 50%;\n  transform: translate(-50%, -50%) rotate(0deg);\n  z-index: 3;\n  opacity: 1;\n}\n.product-card:hover h3 {\n  transform: scale(1);\n  color: #222 !important;\n}", ""]);
 
 // exports
 
@@ -96,14 +96,14 @@ var Home = function Home() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _styles_Landing_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/Landing.module.scss */ "./resources/js/components/layouts/styles/Landing.module.scss");
-/* harmony import */ var _styles_Landing_module_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_Landing_module_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _styles_Landing_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/Landing.scss */ "./resources/js/components/layouts/styles/Landing.scss");
+/* harmony import */ var _styles_Landing_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_Landing_scss__WEBPACK_IMPORTED_MODULE_1__);
 
 
 
 var LandImage = function LandImage() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "".concat(_styles_Landing_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.landing, " w-100 d-flex")
+    className: "landing w-100 d-flex"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     "data-aos": "zoom-in"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
@@ -133,8 +133,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _styles_product_card_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/product-card.module.scss */ "./resources/js/components/layouts/styles/product-card.module.scss");
-/* harmony import */ var _styles_product_card_module_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_product_card_module_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _styles_product_card_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/product-card.scss */ "./resources/js/components/layouts/styles/product-card.scss");
+/* harmony import */ var _styles_product_card_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_product_card_scss__WEBPACK_IMPORTED_MODULE_2__);
 
 
 
@@ -145,7 +145,7 @@ var ProductCard = function ProductCard(props) {
       name = _props$value.name,
       id = _props$value.id;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "".concat(_styles_product_card_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.card, " mx-3"),
+    className: "product-card mx-3",
     "data-aos": "zoom-out-up"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: img,
@@ -225,15 +225,15 @@ var Products = function Products() {
 
 /***/ }),
 
-/***/ "./resources/js/components/layouts/styles/Landing.module.scss":
-/*!********************************************************************!*\
-  !*** ./resources/js/components/layouts/styles/Landing.module.scss ***!
-  \********************************************************************/
+/***/ "./resources/js/components/layouts/styles/Landing.scss":
+/*!*************************************************************!*\
+  !*** ./resources/js/components/layouts/styles/Landing.scss ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../node_modules/css-loader!../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../node_modules/sass-loader/lib/loader.js??ref--7-3!./Landing.module.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./resources/js/components/layouts/styles/Landing.module.scss");
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader!../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../node_modules/sass-loader/lib/loader.js??ref--7-3!./Landing.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./resources/js/components/layouts/styles/Landing.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -255,15 +255,15 @@ if(false) {}
 
 /***/ }),
 
-/***/ "./resources/js/components/layouts/styles/product-card.module.scss":
-/*!*************************************************************************!*\
-  !*** ./resources/js/components/layouts/styles/product-card.module.scss ***!
-  \*************************************************************************/
+/***/ "./resources/js/components/layouts/styles/product-card.scss":
+/*!******************************************************************!*\
+  !*** ./resources/js/components/layouts/styles/product-card.scss ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../node_modules/css-loader!../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../node_modules/sass-loader/lib/loader.js??ref--7-3!./product-card.module.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./resources/js/components/layouts/styles/product-card.module.scss");
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader!../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../node_modules/sass-loader/lib/loader.js??ref--7-3!./product-card.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./resources/js/components/layouts/styles/product-card.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 

@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styles from "./styles/product-card.module.scss";
+import "./styles/product-card.scss";
 const ProductCard = props => {
   const { img, name, id } = props.value;
   return (
-    <div className={`${styles.card} mx-3`} data-aos="zoom-out-up">
+    <div className={`product-card mx-3`} data-aos="zoom-out-up">
       <img src={img} alt={name} className="w-100" />
       <h3 className="text-primary text-center mt-2 h4">{name}</h3>
       <Link to={`/products/${id}`} className="btn btn-primary">
