@@ -1,1 +1,129 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{17:function(t,e,r){t.exports=r(37)},37:function(t,e,r){var n=function(t){"use strict";var e,r=Object.prototype,n=r.hasOwnProperty,o="function"==typeof Symbol?Symbol:{},i=o.iterator||"@@iterator",a=o.asyncIterator||"@@asyncIterator",c=o.toStringTag||"@@toStringTag";function s(t,e,r,n){var o=e&&e.prototype instanceof m?e:m,i=Object.create(o.prototype),a=new j(n||[]);return i._invoke=function(t,e,r){var n=l;return function(o,i){if(n===p)throw new Error("Generator is already running");if(n===f){if("throw"===o)throw i;return S()}for(r.method=o,r.arg=i;;){var a=r.delegate;if(a){var c=k(a,r);if(c){if(c===d)continue;return c}}if("next"===r.method)r.sent=r._sent=r.arg;else if("throw"===r.method){if(n===l)throw n=f,r.arg;r.dispatchException(r.arg)}else"return"===r.method&&r.abrupt("return",r.arg);n=p;var s=u(t,e,r);if("normal"===s.type){if(n=r.done?f:h,s.arg===d)continue;return{value:s.arg,done:r.done}}"throw"===s.type&&(n=f,r.method="throw",r.arg=s.arg)}}}(t,r,a),i}function u(t,e,r){try{return{type:"normal",arg:t.call(e,r)}}catch(t){return{type:"throw",arg:t}}}t.wrap=s;var l="suspendedStart",h="suspendedYield",p="executing",f="completed",d={};function m(){}function y(){}function v(){}var g={};g[i]=function(){return this};var w=Object.getPrototypeOf,b=w&&w(w(P([])));b&&b!==r&&n.call(b,i)&&(g=b);var x=v.prototype=m.prototype=Object.create(g);function E(t){["next","throw","return"].forEach(function(e){t[e]=function(t){return this._invoke(e,t)}})}function L(t){var e;this._invoke=function(r,o){function i(){return new Promise(function(e,i){!function e(r,o,i,a){var c=u(t[r],t,o);if("throw"!==c.type){var s=c.arg,l=s.value;return l&&"object"==typeof l&&n.call(l,"__await")?Promise.resolve(l.__await).then(function(t){e("next",t,i,a)},function(t){e("throw",t,i,a)}):Promise.resolve(l).then(function(t){s.value=t,i(s)},function(t){return e("throw",t,i,a)})}a(c.arg)}(r,o,e,i)})}return e=e?e.then(i,i):i()}}function k(t,r){var n=t.iterator[r.method];if(n===e){if(r.delegate=null,"throw"===r.method){if(t.iterator.return&&(r.method="return",r.arg=e,k(t,r),"throw"===r.method))return d;r.method="throw",r.arg=new TypeError("The iterator does not provide a 'throw' method")}return d}var o=u(n,t.iterator,r.arg);if("throw"===o.type)return r.method="throw",r.arg=o.arg,r.delegate=null,d;var i=o.arg;return i?i.done?(r[t.resultName]=i.value,r.next=t.nextLoc,"return"!==r.method&&(r.method="next",r.arg=e),r.delegate=null,d):i:(r.method="throw",r.arg=new TypeError("iterator result is not an object"),r.delegate=null,d)}function N(t){var e={tryLoc:t[0]};1 in t&&(e.catchLoc=t[1]),2 in t&&(e.finallyLoc=t[2],e.afterLoc=t[3]),this.tryEntries.push(e)}function O(t){var e=t.completion||{};e.type="normal",delete e.arg,t.completion=e}function j(t){this.tryEntries=[{tryLoc:"root"}],t.forEach(N,this),this.reset(!0)}function P(t){if(t){var r=t[i];if(r)return r.call(t);if("function"==typeof t.next)return t;if(!isNaN(t.length)){var o=-1,a=function r(){for(;++o<t.length;)if(n.call(t,o))return r.value=t[o],r.done=!1,r;return r.value=e,r.done=!0,r};return a.next=a}}return{next:S}}function S(){return{value:e,done:!0}}return y.prototype=x.constructor=v,v.constructor=y,v[c]=y.displayName="GeneratorFunction",t.isGeneratorFunction=function(t){var e="function"==typeof t&&t.constructor;return!!e&&(e===y||"GeneratorFunction"===(e.displayName||e.name))},t.mark=function(t){return Object.setPrototypeOf?Object.setPrototypeOf(t,v):(t.__proto__=v,c in t||(t[c]="GeneratorFunction")),t.prototype=Object.create(x),t},t.awrap=function(t){return{__await:t}},E(L.prototype),L.prototype[a]=function(){return this},t.AsyncIterator=L,t.async=function(e,r,n,o){var i=new L(s(e,r,n,o));return t.isGeneratorFunction(r)?i:i.next().then(function(t){return t.done?t.value:i.next()})},E(x),x[c]="Generator",x[i]=function(){return this},x.toString=function(){return"[object Generator]"},t.keys=function(t){var e=[];for(var r in t)e.push(r);return e.reverse(),function r(){for(;e.length;){var n=e.pop();if(n in t)return r.value=n,r.done=!1,r}return r.done=!0,r}},t.values=P,j.prototype={constructor:j,reset:function(t){if(this.prev=0,this.next=0,this.sent=this._sent=e,this.done=!1,this.delegate=null,this.method="next",this.arg=e,this.tryEntries.forEach(O),!t)for(var r in this)"t"===r.charAt(0)&&n.call(this,r)&&!isNaN(+r.slice(1))&&(this[r]=e)},stop:function(){this.done=!0;var t=this.tryEntries[0].completion;if("throw"===t.type)throw t.arg;return this.rval},dispatchException:function(t){if(this.done)throw t;var r=this;function o(n,o){return c.type="throw",c.arg=t,r.next=n,o&&(r.method="next",r.arg=e),!!o}for(var i=this.tryEntries.length-1;i>=0;--i){var a=this.tryEntries[i],c=a.completion;if("root"===a.tryLoc)return o("end");if(a.tryLoc<=this.prev){var s=n.call(a,"catchLoc"),u=n.call(a,"finallyLoc");if(s&&u){if(this.prev<a.catchLoc)return o(a.catchLoc,!0);if(this.prev<a.finallyLoc)return o(a.finallyLoc)}else if(s){if(this.prev<a.catchLoc)return o(a.catchLoc,!0)}else{if(!u)throw new Error("try statement without catch or finally");if(this.prev<a.finallyLoc)return o(a.finallyLoc)}}}},abrupt:function(t,e){for(var r=this.tryEntries.length-1;r>=0;--r){var o=this.tryEntries[r];if(o.tryLoc<=this.prev&&n.call(o,"finallyLoc")&&this.prev<o.finallyLoc){var i=o;break}}i&&("break"===t||"continue"===t)&&i.tryLoc<=e&&e<=i.finallyLoc&&(i=null);var a=i?i.completion:{};return a.type=t,a.arg=e,i?(this.method="next",this.next=i.finallyLoc,d):this.complete(a)},complete:function(t,e){if("throw"===t.type)throw t.arg;return"break"===t.type||"continue"===t.type?this.next=t.arg:"return"===t.type?(this.rval=this.arg=t.arg,this.method="return",this.next="end"):"normal"===t.type&&e&&(this.next=e),d},finish:function(t){for(var e=this.tryEntries.length-1;e>=0;--e){var r=this.tryEntries[e];if(r.finallyLoc===t)return this.complete(r.completion,r.afterLoc),O(r),d}},catch:function(t){for(var e=this.tryEntries.length-1;e>=0;--e){var r=this.tryEntries[e];if(r.tryLoc===t){var n=r.completion;if("throw"===n.type){var o=n.arg;O(r)}return o}}throw new Error("illegal catch attempt")},delegateYield:function(t,r,n){return this.delegate={iterator:P(t),resultName:r,nextLoc:n},"next"===this.method&&(this.arg=e),d}},t}(t.exports);try{regeneratorRuntime=n}catch(t){Function("r","regeneratorRuntime = r")(n)}},38:function(t,e,r){var n=r(39);"string"==typeof n&&(n=[[t.i,n,""]]);var o={hmr:!0,transform:void 0,insertInto:void 0};r(8)(n,o);n.locals&&(t.exports=n.locals)},39:function(t,e,r){(t.exports=r(7)(!1)).push([t.i,".productPage {\n  min-height: 100vh;\n  perspective: 3000px;\n}\n.productPage .imageWrapper {\n  width: 100%;\n  max-width: 550px;\n  height: 50vh;\n  max-height: 400px;\n  overflow: hidden;\n}\n.productPage .imageWrapper img {\n  width: 100%;\n  height: 100%;\n  -o-object-fit: cover;\n     object-fit: cover;\n  transition: transform 0.5s ease-in-out;\n  background-color: #999;\n}\n.productPage .imageWrapper:hover img {\n  transform: scale(1.2) rotate(-7deg);\n}",""])},68:function(t,e,r){"use strict";r.r(e);var n=r(17),o=r.n(n),i=r(0),a=r.n(i),c=(r(38),r(14));function s(t,e,r,n,o,i,a){try{var c=t[i](a),s=c.value}catch(t){return void r(t)}c.done?e(s):Promise.resolve(s).then(n,o)}function u(t,e){return function(t){if(Array.isArray(t))return t}(t)||function(t,e){var r=[],n=!0,o=!1,i=void 0;try{for(var a,c=t[Symbol.iterator]();!(n=(a=c.next()).done)&&(r.push(a.value),!e||r.length!==e);n=!0);}catch(t){o=!0,i=t}finally{try{n||null==c.return||c.return()}finally{if(o)throw i}}return r}(t,e)||function(){throw new TypeError("Invalid attempt to destructure non-iterable instance")}()}var l={id:4,title:"Leather Tanning",img:"https://drive.google.com/uc?id=1xma7V3yoEd6g8BU4EwUIsQqwV8ywtyIc",text:"Our leather and textiles business provides specialty chemicals for beamhouse and tanning, retaining, dyestuffs, textiles and finishing.\n\n We not only supply these specialty chemicals to our customers but also strive, whenever possible, to be the partners who provide the best solutions or processes for their needs.\n\n  We have more than 25 years of experience in the leather chemical business and represent a number of world-class suppliers throughout the region. Our leather technicians develop an economical process in our application laboratory, run trials at the customers’ site and provide a total package to meet their needs.\n\nOur reputable suppliers constantly visit clients to get updates on the latest fashion trends and technical know-how.\n\n This enables close cooperation and ensures the ability to respond quickly to market changes.\n\nThe goods, which are manufactured by our customers, include shoe upper leather, upholstery, handbags, car upholstery as well as many other products.",properties:{"Sodium Sulphide":"Na2S – Yellow flakes with low Fe content.","Sodium Hydrosulphide":"NaSH – Biege flakes","Liming auxiliaries":"Products used for better de-hairing and reduction of Na2S usage.","Formic acid 85% (Substitution)":"Green acidic combination product which substitutes Formic acid usage in pickling, dyeing and tanning processes."}};e.default=function(t){t.match;var e=u(Object(i.useState)(null),2),r=e[0],n=e[1];return document.title=r&&r.title||"Products",Object(i.useEffect)(function(){var t;(t=o.a.mark(function t(){return o.a.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return t.t0=console,t.next=3,fetch("http://jsonplaceholder.typicode.com/posts/1");case 3:t.t1=t.sent,t.t0.log.call(t.t0,t.t1),n(l);case 7:case"end":return t.stop()}},t)}),function(){var e=this,r=arguments;return new Promise(function(n,o){var i=t.apply(e,r);function a(t){s(i,n,o,a,c,"next",t)}function c(t){s(i,n,o,a,c,"throw",t)}a(void 0)})})()}),r?a.a.createElement("div",{className:"productPage container py-5"},a.a.createElement("div",{className:"imageWrapper mx-auto rounded mt-5"},a.a.createElement("img",{src:r.img,alt:r.title})),a.a.createElement("h2",{className:"text-primary mb-5 mt-6 text-center h1","data-aos":"flip-up","data-aos-duration":"1100"},r.title),a.a.createElement("p",{style:{whiteSpace:"pre-line"},className:"mb-5","data-aos":"fade-right"},r.text),a.a.createElement("div",{"data-aos":"fade-up"},Object.keys(r.properties).map(function(t,e){return a.a.createElement("div",{className:"d-flex",key:e},a.a.createElement("div",{className:"bg-primary text-white border-bottom text-break  px-4 py-3",style:{width:"30%",minWidth:"150px"}},t),a.a.createElement("div",{className:" w-100 border-bottom border-primary px-4 py-3"},r.properties[t]))})),a.a.createElement("div",{className:"my-5"})):a.a.createElement(c.a,null)}}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1],{
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./resources/js/components/layouts/styles/about.scss":
+/*!************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/lib/loader.js??ref--7-3!./resources/js/components/layouts/styles/about.scss ***!
+  \************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".about .aboutImage {\n  width: 100%;\n  height: 60vh;\n  max-height: 700px;\n  background-size: cover;\n  background-attachment: fixed;\n  background-position: center;\n  -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);\n  clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n@media screen and (min-width: 992px) {\n  .about .aboutImage {\n    height: 70vh;\n  }\n}\n.about .aboutImage h1 {\n  z-index: 2;\n}\n.about .aboutImage:after {\n  content: \"\";\n  display: block;\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  background: radial-gradient(#736d9091, #0d0d0d54);\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./resources/js/components/layouts/About.jsx":
+/*!***************************************************!*\
+  !*** ./resources/js/components/layouts/About.jsx ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_about_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/about.scss */ "./resources/js/components/layouts/styles/about.scss");
+/* harmony import */ var _styles_about_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_about_scss__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+var About = function About() {
+  document.title = "About Petro Asia Cheme";
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "w-100 about"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "aboutImage",
+    style: {
+      backgroundImage: 'url("https://drive.google.com/uc?id=1W4R_Q5K5XKtmywaX0giy36EXlry37e-u")'
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "text-center mt-6 mb-5 text-white",
+    "data-aos": "zoom-in"
+  }, "About ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "text-white"
+  }, "Petro Asia Cheme"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container mx-auto mt-5 mb-6"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row justify-content-around"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-6 mb-4",
+    "data-aos": "fade-right"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "text-left text-dark  border-bottom border-primary px-2 py-2"
+  }, "Who We", " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "text-primary text-capitalize"
+  }, "are")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "text-dark text-justify px-3"
+  }, "We have been manufacturing, and exporting chemicals and petrochemical products from Iran since 2019 and have penetrated various markets in the world especially Middle East, Africa, CIS countries and Asia. With years of solid experience in chemicals and petrochemicals market, we mainly assist our customers with competitive price, foreign banking facilities, cost-effective and fast logistics services")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-6 mb-4",
+    "data-aos": "fade-left"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "text-left text-dark border-bottom border-primary px-2 py-2"
+  }, "What We", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "text-primary text-capitalize"
+  }, " ", "do")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "text-dark text-justify px-3"
+  }, "Part of what we do is traditional chemical distribution business, and we represent producers, hold inventory and sell in a traditional manner. We have the ability to offer quality chemicals and raw materials from our association with domestic and global chemical producers, providing access to thousands of chemicals and duplicate sourcing on numerous critical raw materials. We maintain packaged and bulk inventory around the country.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-6 mb-4",
+    "data-aos": "fade-right"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "text-left text-dark border-bottom border-primary px-2 py-2"
+  }, "Our", " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "text-primary text-capitalize"
+  }, " ", "mission")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "text-dark text-justify px-3"
+  }, "We provide our services globally in Petro chemical products with quality and control measures to meet out the requirements of our esteemed clients. We never compromise with the quality of our products and do our best to provide satisfaction to our distinguished buyers throughout the world.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-6 mb-4",
+    "data-aos": "fade-left"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "text-left text-dark border-bottom border-primary px-2 py-2"
+  }, "Why", " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "text-primary text-capitalize"
+  }, "choose"), " ", "Us"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "text-dark text-justify px-3"
+  }, "The goal of all we do is to ensure our customers are entirely satisfied through the high quality and the competitive prices, so they join us on the road to success. We believe in integrity through action and being transparent with our customers, partners, investors, and employees.")))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (About);
+
+/***/ }),
+
+/***/ "./resources/js/components/layouts/styles/about.scss":
+/*!***********************************************************!*\
+  !*** ./resources/js/components/layouts/styles/about.scss ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader!../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../node_modules/sass-loader/lib/loader.js??ref--7-3!./about.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./resources/js/components/layouts/styles/about.scss");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ })
+
+}]);

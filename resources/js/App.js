@@ -2,7 +2,7 @@ import React, { lazy, Suspense } from "react";
 import { Route, BrowserRouter, Switch } from "react-router-dom";
 import { Navbar, Footer } from "./components/layouts";
 import ScrollToTop from "./utils/ScrollToTopController";
-import "./utils/App.scss";
+import "./utils/app.scss";
 import "./utils/aos";
 import Loading from "./components/layouts/Loading";
 import ScrollTopBtn from "./components/layouts/ScrollTopBtn";
